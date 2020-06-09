@@ -1,0 +1,50 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    background-color:#2C3335;
+    font-family: sans-serif;
+}
+h4{
+    text-align:center;
+    color:white;
+    font-size:28px;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+.container{
+    background-color:#7B8788;
+    height:350px;
+    width:300px;
+    margin:100px auto;
+    box-shadow: 0px 0px 100px 0px rgba(0,0,0,0.75);
+}
+#uservalue{
+    height:60px;
+    width:100%;
+    border:2px solid gray;
+    outline:none;
+    background-color:#2C3335;
+    color:white;
+    font-size:16px;
+    text-align:center;
+}
+::placeholder{
+    color:white;
+    font-size:18px;
+    text-align: center;
+    text-transform: capitalize;
+}
+button{
+    width:23%;
+    padding:18px;
+    margin-top: 8px;
+    font-size:18px;
+     border:none;
+     outline:none;
+     font-weight:bold;
+     height:60px;
+     border-radius:10px;
+}
